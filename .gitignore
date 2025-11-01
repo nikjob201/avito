@@ -1,0 +1,8 @@
+.env
+
+data/avitomoment.json
+data/seen_ads.json
+
+__pycache__/
+*.pyc
+*.log

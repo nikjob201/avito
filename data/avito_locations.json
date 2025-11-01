@@ -1,0 +1,934 @@
+[
+  {
+    "region_id": 1,
+    "region_name": "Республика Адыгея",
+    "cities": [
+      {"city_id": 101, "city_name": "Майкоп"},
+      {"city_id": 102, "city_name": "Адыгейск"},
+      {"city_id": 103, "city_name": "Тахтамукай"},
+      {"city_id": 104, "city_name": "Кошехабль"},
+      {"city_id": 105, "city_name": "Тлюстенхабль"}
+    ]
+  },
+  {
+    "region_id": 2,
+    "region_name": "Республика Алтай",
+    "cities": [
+      {"city_id": 201, "city_name": "Горно-Алтайск"},
+      {"city_id": 202, "city_name": "Майма"},
+      {"city_id": 203, "city_name": "Чемал"},
+      {"city_id": 204, "city_name": "Кош-Агач"},
+      {"city_id": 205, "city_name": "Онгудай"}
+    ]
+  },
+  {
+    "region_id": 3,
+    "region_name": "Алтайский край",
+    "cities": [
+      {"city_id": 301, "city_name": "Барнаул"},
+      {"city_id": 302, "city_name": "Бийск"},
+      {"city_id": 303, "city_name": "Рубцовск"},
+      {"city_id": 304, "city_name": "Новоалтайск"},
+      {"city_id": 305, "city_name": "Славгород"},
+      {"city_id": 306, "city_name": "Яровое"},
+      {"city_id": 307, "city_name": "Заринск"},
+      {"city_id": 308, "city_name": "Камень-на-Оби"}
+    ]
+  },
+  {
+    "region_id": 4,
+    "region_name": "Амурская область",
+    "cities": [
+      {"city_id": 401, "city_name": "Благовещенск"},
+      {"city_id": 402, "city_name": "Белогорск"},
+      {"city_id": 403, "city_name": "Свободный"},
+      {"city_id": 404, "city_name": "Тында"},
+      {"city_id": 405, "city_name": "Зея"},
+      {"city_id": 406, "city_name": "Райчихинск"},
+      {"city_id": 407, "city_name": "Шимановск"}
+    ]
+  },
+  {
+    "region_id": 5,
+    "region_name": "Архангельская область",
+    "cities": [
+      {"city_id": 501, "city_name": "Архангельск"},
+      {"city_id": 502, "city_name": "Северодвинск"},
+      {"city_id": 503, "city_name": "Котлас"},
+      {"city_id": 504, "city_name": "Коряжма"},
+      {"city_id": 505, "city_name": "Новодвинск"},
+      {"city_id": 506, "city_name": "Мезень"},
+      {"city_id": 507, "city_name": "Мирный"},
+      {"city_id": 508, "city_name": "Вельск"}
+    ]
+  },
+  {
+    "region_id": 6,
+    "region_name": "Астраханская область",
+    "cities": [
+      {"city_id": 601, "city_name": "Астрахань"},
+      {"city_id": 602, "city_name": "Ахтубинск"},
+      {"city_id": 603, "city_name": "Камызяк"},
+      {"city_id": 604, "city_name": "Харабали"},
+      {"city_id": 605, "city_name": "Нариманов"},
+      {"city_id": 606, "city_name": "Знаменск"}
+    ]
+  },
+  {
+    "region_id": 7,
+    "region_name": "Республика Башкортостан",
+    "cities": [
+      {"city_id": 701, "city_name": "Уфа"},
+      {"city_id": 702, "city_name": "Стерлитамак"},
+      {"city_id": 703, "city_name": "Салават"},
+      {"city_id": 704, "city_name": "Нефтекамск"},
+      {"city_id": 705, "city_name": "Октябрьский"},
+      {"city_id": 706, "city_name": "Туймазы"},
+      {"city_id": 707, "city_name": "Белебей"},
+      {"city_id": 708, "city_name": "Бирск"}
+    ]
+  },
+  {
+    "region_id": 8,
+    "region_name": "Белгородская область",
+    "cities": [
+      {"city_id": 801, "city_name": "Белгород"},
+      {"city_id": 802, "city_name": "Старый Оскол"},
+      {"city_id": 803, "city_name": "Губкин"},
+      {"city_id": 804, "city_name": "Шебекино"},
+      {"city_id": 805, "city_name": "Алексеевка"},
+      {"city_id": 806, "city_name": "Валуйки"}
+    ]
+  },
+  {
+    "region_id": 9,
+    "region_name": "Брянская область",
+    "cities": [
+      {"city_id": 901, "city_name": "Брянск"},
+      {"city_id": 902, "city_name": "Клинцы"},
+      {"city_id": 903, "city_name": "Новозыбков"},
+      {"city_id": 904, "city_name": "Сельцо"},
+      {"city_id": 905, "city_name": "Фокино"},
+      {"city_id": 906, "city_name": "Дятьково"}
+    ]
+  },
+  {
+    "region_id": 10,
+    "region_name": "Республика Бурятия",
+    "cities": [
+      {"city_id": 1001, "city_name": "Улан-Удэ"},
+      {"city_id": 1002, "city_name": "Северобайкальск"},
+      {"city_id": 1003, "city_name": "Кяхта"},
+      {"city_id": 1004, "city_name": "Бабушкин"}
+    ]
+  },
+  {
+    "region_id": 11,
+    "region_name": "Владимирская область",
+    "cities": [
+      {"city_id": 1101, "city_name": "Владимир"},
+      {"city_id": 1102, "city_name": "Ковров"},
+      {"city_id": 1103, "city_name": "Муром"},
+      {"city_id": 1104, "city_name": "Гусь-Хрустальный"},
+      {"city_id": 1105, "city_name": "Александров"},
+      {"city_id": 1106, "city_name": "Юрьев-Польский"}
+    ]
+  },
+  {
+    "region_id": 12,
+    "region_name": "Волгоградская область",
+    "cities": [
+      {"city_id": 1201, "city_name": "Волгоград"},
+      {"city_id": 1202, "city_name": "Волжский"},
+      {"city_id": 1203, "city_name": "Камышин"},
+      {"city_id": 1204, "city_name": "Михайловка"},
+      {"city_id": 1205, "city_name": "Фролово"},
+      {"city_id": 1206, "city_name": "Урюпинск"}
+    ]
+  },
+  {
+    "region_id": 13,
+    "region_name": "Вологодская область",
+    "cities": [
+      {"city_id": 1301, "city_name": "Вологда"},
+      {"city_id": 1302, "city_name": "Череповец"},
+      {"city_id": 1303, "city_name": "Сокол"},
+      {"city_id": 1304, "city_name": "Великий Устюг"},
+      {"city_id": 1305, "city_name": "Грязовец"}
+    ]
+  },
+  {
+    "region_id": 14,
+    "region_name": "Воронежская область",
+    "cities": [
+      {"city_id": 1401, "city_name": "Воронеж"},
+      {"city_id": 1402, "city_name": "Борисоглебск"},
+      {"city_id": 1403, "city_name": "Россошь"},
+      {"city_id": 1404, "city_name": "Лиски"},
+      {"city_id": 1405, "city_name": "Острогожск"},
+      {"city_id": 1406, "city_name": "Бутурлиновка"}
+    ]
+  },
+  {
+    "region_id": 15,
+    "region_name": "Республика Дагестан",
+    "cities": [
+      {"city_id": 1501, "city_name": "Махачкала"},
+      {"city_id": 1502, "city_name": "Каспийск"},
+      {"city_id": 1503, "city_name": "Дербент"},
+      {"city_id": 1504, "city_name": "Хасавюрт"},
+      {"city_id": 1505, "city_name": "Буйнакск"},
+      {"city_id": 1506, "city_name": "Избербаш"}
+    ]
+  }
+  ,
+  {
+    "region_id": 16,
+    "region_name": "Еврейская автономная область",
+    "cities": [
+      {"city_id": 1601, "city_name": "Биробиджан"},
+      {"city_id": 1602, "city_name": "Облучье"}
+    ]
+  },
+  {
+    "region_id": 17,
+    "region_name": "Забайкальский край",
+    "cities": [
+      {"city_id": 1701, "city_name": "Чита"},
+      {"city_id": 1702, "city_name": "Краснокаменск"},
+      {"city_id": 1703, "city_name": "Борзя"},
+      {"city_id": 1704, "city_name": "Петровск-Забайкальский"},
+      {"city_id": 1705, "city_name": "Могоча"},
+      {"city_id": 1706, "city_name": "Сретенск"}
+    ]
+  },
+  {
+    "region_id": 18,
+    "region_name": "Ивановская область",
+    "cities": [
+      {"city_id": 1801, "city_name": "Иваново"},
+      {"city_id": 1802, "city_name": "Кинешма"},
+      {"city_id": 1803, "city_name": "Шуя"},
+      {"city_id": 1804, "city_name": "Тейково"},
+      {"city_id": 1805, "city_name": "Фурманов"},
+      {"city_id": 1806, "city_name": "Вичуга"}
+    ]
+  },
+  {
+    "region_id": 19,
+    "region_name": "Республика Ингушетия",
+    "cities": [
+      {"city_id": 1901, "city_name": "Магас"},
+      {"city_id": 1902, "city_name": "Назрань"},
+      {"city_id": 1903, "city_name": "Карабулак"}
+    ]
+  },
+  {
+    "region_id": 20,
+    "region_name": "Иркутская область",
+    "cities": [
+      {"city_id": 2001, "city_name": "Иркутск"},
+      {"city_id": 2002, "city_name": "Братск"},
+      {"city_id": 2003, "city_name": "Ангарск"},
+      {"city_id": 2004, "city_name": "Усть-Илимск"},
+      {"city_id": 2005, "city_name": "Черемхово"},
+      {"city_id": 2006, "city_name": "Тулун"},
+      {"city_id": 2007, "city_name": "Саянск"}
+    ]
+  },
+  {
+    "region_id": 21,
+    "region_name": "Кабардино-Балкарская Республика",
+    "cities": [
+      {"city_id": 2101, "city_name": "Нальчик"},
+      {"city_id": 2102, "city_name": "Прохладный"},
+      {"city_id": 2103, "city_name": "Майский"},
+      {"city_id": 2104, "city_name": "Тырныауз"},
+      {"city_id": 2105, "city_name": "Баксан"}
+    ]
+  },
+  {
+    "region_id": 22,
+    "region_name": "Калининградская область",
+    "cities": [
+      {"city_id": 2201, "city_name": "Калининград"},
+      {"city_id": 2202, "city_name": "Советск"},
+      {"city_id": 2203, "city_name": "Черняховск"},
+      {"city_id": 2204, "city_name": "Багратионовск"},
+      {"city_id": 2205, "city_name": "Гусев"}
+    ]
+  },
+  {
+    "region_id": 23,
+    "region_name": "Республика Калмыкия",
+    "cities": [
+      {"city_id": 2301, "city_name": "Элиста"},
+      {"city_id": 2302, "city_name": "Городовиковск"},
+      {"city_id": 2303, "city_name": "Лагань"}
+    ]
+  },
+  {
+    "region_id": 24,
+    "region_name": "Калужская область",
+    "cities": [
+      {"city_id": 2401, "city_name": "Калуга"},
+      {"city_id": 2402, "city_name": "Обнинск"},
+      {"city_id": 2403, "city_name": "Малоярославец"},
+      {"city_id": 2404, "city_name": "Людиново"},
+      {"city_id": 2405, "city_name": "Козельск"}
+    ]
+  },
+  {
+    "region_id": 25,
+    "region_name": "Камчатский край",
+    "cities": [
+      {"city_id": 2501, "city_name": "Петропавловск-Камчатский"},
+      {"city_id": 2502, "city_name": "Елизово"},
+      {"city_id": 2503, "city_name": "Вилючинск"}
+    ]
+  },
+  {
+    "region_id": 26,
+    "region_name": "Карачаево-Черкесская Республика",
+    "cities": [
+      {"city_id": 2601, "city_name": "Черкесск"},
+      {"city_id": 2602, "city_name": "Карачаевск"},
+      {"city_id": 2603, "city_name": "Теберда"},
+      {"city_id": 2604, "city_name": "Усть-Джегута"}
+    ]
+  },
+  {
+    "region_id": 27,
+    "region_name": "Республика Карелия",
+    "cities": [
+      {"city_id": 2701, "city_name": "Петрозаводск"},
+      {"city_id": 2702, "city_name": "Костомукша"},
+      {"city_id": 2703, "city_name": "Сегежа"},
+      {"city_id": 2704, "city_name": "Сортавала"}
+    ]
+  },
+  {
+    "region_id": 28,
+    "region_name": "Республика Коми",
+    "cities": [
+      {"city_id": 2801, "city_name": "Сыктывкар"},
+      {"city_id": 2802, "city_name": "Ухта"},
+      {"city_id": 2803, "city_name": "Воркута"},
+      {"city_id": 2804, "city_name": "Инта"},
+      {"city_id": 2805, "city_name": "Печора"}
+    ]
+  },
+  {
+    "region_id": 29,
+    "region_name": "Кемеровская область",
+    "cities": [
+      {"city_id": 2901, "city_name": "Кемерово"},
+      {"city_id": 2902, "city_name": "Новокузнецк"},
+      {"city_id": 2903, "city_name": "Прокопьевск"},
+      {"city_id": 2904, "city_name": "Междуреченск"},
+      {"city_id": 2905, "city_name": "Анжеро-Судженск"},
+      {"city_id": 2906, "city_name": "Ленинск-Кузнецкий"}
+    ]
+  },
+  {
+    "region_id": 30,
+    "region_name": "Кировская область",
+    "cities": [
+      {"city_id": 3001, "city_name": "Киров"},
+      {"city_id": 3002, "city_name": "Кирово-Чепецк"},
+      {"city_id": 3003, "city_name": "Вятские Поляны"},
+      {"city_id": 3004, "city_name": "Слободской"},
+      {"city_id": 3005, "city_name": "Котельнич"}
+    ]
+  }
+  ,
+  {
+    "region_id": 31,
+    "region_name": "Костромская область",
+    "cities": [
+      {"city_id": 3101, "city_name": "Кострома"},
+      {"city_id": 3102, "city_name": "Буй"},
+      {"city_id": 3103, "city_name": "Галич"},
+      {"city_id": 3104, "city_name": "Нерехта"},
+      {"city_id": 3105, "city_name": "Шарья"}
+    ]
+  },
+  {
+    "region_id": 32,
+    "region_name": "Краснодарский край",
+    "cities": [
+      {"city_id": 3201, "city_name": "Краснодар"},
+      {"city_id": 3202, "city_name": "Сочи"},
+      {"city_id": 3203, "city_name": "Новороссийск"},
+      {"city_id": 3204, "city_name": "Армавир"},
+      {"city_id": 3205, "city_name": "Анапа"},
+      {"city_id": 3206, "city_name": "Геленджик"},
+      {"city_id": 3207, "city_name": "Туапсе"},
+      {"city_id": 3208, "city_name": "Ейск"},
+      {"city_id": 3209, "city_name": "Крымск"},
+      {"city_id": 3210, "city_name": "Кропоткин"}
+    ]
+  },
+  {
+    "region_id": 33,
+    "region_name": "Красноярский край",
+    "cities": [
+      {"city_id": 3301, "city_name": "Красноярск"},
+      {"city_id": 3302, "city_name": "Норильск"},
+      {"city_id": 3303, "city_name": "Ачинск"},
+      {"city_id": 3304, "city_name": "Канск"},
+      {"city_id": 3305, "city_name": "Железногорск"},
+      {"city_id": 3306, "city_name": "Минусинск"},
+      {"city_id": 3307, "city_name": "Лесосибирск"}
+    ]
+  },
+  {
+    "region_id": 34,
+    "region_name": "Курганская область",
+    "cities": [
+      {"city_id": 3401, "city_name": "Курган"},
+      {"city_id": 3402, "city_name": "Шадринск"},
+      {"city_id": 3403, "city_name": "Катайск"},
+      {"city_id": 3404, "city_name": "Далматово"}
+    ]
+  },
+  {
+    "region_id": 35,
+    "region_name": "Курская область",
+    "cities": [
+      {"city_id": 3501, "city_name": "Курск"},
+      {"city_id": 3502, "city_name": "Железногорск"},
+      {"city_id": 3503, "city_name": "Курчатов"},
+      {"city_id": 3504, "city_name": "Льгов"},
+      {"city_id": 3505, "city_name": "Фатеж"}
+    ]
+  },
+  {
+    "region_id": 36,
+    "region_name": "Липецкая область",
+    "cities": [
+      {"city_id": 3601, "city_name": "Липецк"},
+      {"city_id": 3602, "city_name": "Елец"},
+      {"city_id": 3603, "city_name": "Грязи"},
+      {"city_id": 3604, "city_name": "Данков"},
+      {"city_id": 3605, "city_name": "Лебедянь"},
+      {"city_id": 3606, "city_name": "Усмань"},
+      {"city_id": 3607, "city_name": "Чаплыгин"},
+      {"city_id": 3608, "city_name": "Задонск"}
+    ]
+  },
+  {
+    "region_id": 37,
+    "region_name": "Магаданская область",
+    "cities": [
+      {"city_id": 3701, "city_name": "Магадан"},
+      {"city_id": 3702, "city_name": "Сусуман"},
+      {"city_id": 3703, "city_name": "Ола"},
+      {"city_id": 3704, "city_name": "Ягодное"}
+    ]
+  },
+  {
+    "region_id": 38,
+    "region_name": "Республика Марий Эл",
+    "cities": [
+      {"city_id": 3801, "city_name": "Йошкар-Ола"},
+      {"city_id": 3802, "city_name": "Волжск"},
+      {"city_id": 3803, "city_name": "Звенигово"},
+      {"city_id": 3804, "city_name": "Козьмодемьянск"}
+    ]
+  },
+  {
+    "region_id": 39,
+    "region_name": "Республика Мордовия",
+    "cities": [
+      {"city_id": 3901, "city_name": "Саранск"},
+      {"city_id": 3902, "city_name": "Рузаевка"},
+      {"city_id": 3903, "city_name": "Ковылкино"}
+    ]
+  },
+  {
+    "region_id": 40,
+    "region_name": "Московская область",
+    "cities": [
+      {"city_id": 4001, "city_name": "Москва"},
+      {"city_id": 4002, "city_name": "Химки"},
+      {"city_id": 4003, "city_name": "Мытищи"},
+      {"city_id": 4004, "city_name": "Королёв"},
+      {"city_id": 4005, "city_name": "Одинцово"},
+      {"city_id": 4006, "city_name": "Подольск"},
+      {"city_id": 4007, "city_name": "Люберцы"},
+      {"city_id": 4008, "city_name": "Балашиха"},
+      {"city_id": 4009, "city_name": "Щёлково"},
+      {"city_id": 4010, "city_name": "Домодедово"},
+      {"city_id": 4011, "city_name": "Сергиев Посад"}
+    ]
+  },
+  {
+    "region_id": 41,
+    "region_name": "Мурманская область",
+    "cities": [
+      {"city_id": 4101, "city_name": "Мурманск"},
+      {"city_id": 4102, "city_name": "Апатиты"},
+      {"city_id": 4103, "city_name": "Кировск"},
+      {"city_id": 4104, "city_name": "Североморск"},
+      {"city_id": 4105, "city_name": "Мончегорск"}
+    ]
+  },
+  {
+    "region_id": 42,
+    "region_name": "Ненецкий автономный округ",
+    "cities": [
+      {"city_id": 4201, "city_name": "Нарьян-Мар"}
+    ]
+  },
+  {
+    "region_id": 43,
+    "region_name": "Нижегородская область",
+    "cities": [
+      {"city_id": 4301, "city_name": "Нижний Новгород"},
+      {"city_id": 4302, "city_name": "Дзержинск"},
+      {"city_id": 4303, "city_name": "Арзамас"},
+      {"city_id": 4304, "city_name": "Бор"},
+      {"city_id": 4305, "city_name": "Кстово"},
+      {"city_id": 4306, "city_name": "Саров"}
+    ]
+  },
+  {
+    "region_id": 44,
+    "region_name": "Новгородская область",
+    "cities": [
+      {"city_id": 4401, "city_name": "Великий Новгород"},
+      {"city_id": 4402, "city_name": "Боровичи"},
+      {"city_id": 4403, "city_name": "Старая Русса"}
+    ]
+  },
+  {
+    "region_id": 45,
+    "region_name": "Новосибирская область",
+    "cities": [
+      {"city_id": 4501, "city_name": "Новосибирск"},
+      {"city_id": 4502, "city_name": "Бердск"},
+      {"city_id": 4503, "city_name": "Искитим"},
+      {"city_id": 4504, "city_name": "Куйбышев"},
+      {"city_id": 4505, "city_name": "Обь"}
+    ]
+  }
+  ,
+  {
+    "region_id": 46,
+    "region_name": "Омская область",
+    "cities": [
+      {"city_id": 4601, "city_name": "Омск"},
+      {"city_id": 4602, "city_name": "Исилькуль"},
+      {"city_id": 4603, "city_name": "Калачинск"},
+      {"city_id": 4604, "city_name": "Тара"},
+      {"city_id": 4605, "city_name": "Называевск"}
+    ]
+  },
+  {
+    "region_id": 47,
+    "region_name": "Оренбургская область",
+    "cities": [
+      {"city_id": 4701, "city_name": "Оренбург"},
+      {"city_id": 4702, "city_name": "Орск"},
+      {"city_id": 4703, "city_name": "Новотроицк"},
+      {"city_id": 4704, "city_name": "Бузулук"},
+      {"city_id": 4705, "city_name": "Гай"},
+      {"city_id": 4706, "city_name": "Медногорск"},
+      {"city_id": 4707, "city_name": "Сорочинск"}
+    ]
+  },
+  {
+    "region_id": 48,
+    "region_name": "Орловская область",
+    "cities": [
+      {"city_id": 4801, "city_name": "Орёл"},
+      {"city_id": 4802, "city_name": "Ливны"},
+      {"city_id": 4803, "city_name": "Мценск"},
+      {"city_id": 4804, "city_name": "Дмитровск"}
+    ]
+  },
+  {
+    "region_id": 49,
+    "region_name": "Пензенская область",
+    "cities": [
+      {"city_id": 4901, "city_name": "Пенза"},
+      {"city_id": 4902, "city_name": "Кузнецк"},
+      {"city_id": 4903, "city_name": "Заречный"},
+      {"city_id": 4904, "city_name": "Сердобск"},
+      {"city_id": 4905, "city_name": "Нижний Ломов"}
+    ]
+  },
+  {
+    "region_id": 50,
+    "region_name": "Пермский край",
+    "cities": [
+      {"city_id": 5001, "city_name": "Пермь"},
+      {"city_id": 5002, "city_name": "Березники"},
+      {"city_id": 5003, "city_name": "Соликамск"},
+      {"city_id": 5004, "city_name": "Кунгур"},
+      {"city_id": 5005, "city_name": "Чайковский"},
+      {"city_id": 5006, "city_name": "Лысьва"},
+      {"city_id": 5007, "city_name": "Чернушка"}
+    ]
+  },
+  {
+    "region_id": 51,
+    "region_name": "Приморский край",
+    "cities": [
+      {"city_id": 5101, "city_name": "Владивосток"},
+      {"city_id": 5102, "city_name": "Уссурийск"},
+      {"city_id": 5103, "city_name": "Находка"},
+      {"city_id": 5104, "city_name": "Арсеньев"},
+      {"city_id": 5105, "city_name": "Дальнереченск"},
+      {"city_id": 5106, "city_name": "Лесозаводск"},
+      {"city_id": 5107, "city_name": "Дальнегорск"}
+    ]
+  },
+  {
+    "region_id": 52,
+    "region_name": "Псковская область",
+    "cities": [
+      {"city_id": 5201, "city_name": "Псков"},
+      {"city_id": 5202, "city_name": "Великие Луки"},
+      {"city_id": 5203, "city_name": "Остров"},
+      {"city_id": 5204, "city_name": "Невель"},
+      {"city_id": 5205, "city_name": "Порхов"}
+    ]
+  },
+  {
+    "region_id": 53,
+    "region_name": "Ростовская область",
+    "cities": [
+      {"city_id": 5301, "city_name": "Ростов-на-Дону"},
+      {"city_id": 5302, "city_name": "Таганрог"},
+      {"city_id": 5303, "city_name": "Шахты"},
+      {"city_id": 5304, "city_name": "Новочеркасск"},
+      {"city_id": 5305, "city_name": "Волгодонск"},
+      {"city_id": 5306, "city_name": "Батайск"},
+      {"city_id": 5307, "city_name": "Азов"},
+      {"city_id": 5308, "city_name": "Белая Калитва"}
+    ]
+  },
+  {
+    "region_id": 54,
+    "region_name": "Рязанская область",
+    "cities": [
+      {"city_id": 5401, "city_name": "Рязань"},
+      {"city_id": 5402, "city_name": "Касимов"},
+      {"city_id": 5403, "city_name": "Скопин"},
+      {"city_id": 5404, "city_name": "Сасово"},
+      {"city_id": 5405, "city_name": "Ряжск"}
+    ]
+  },
+  {
+    "region_id": 55,
+    "region_name": "Самарская область",
+    "cities": [
+      {"city_id": 5501, "city_name": "Самара"},
+      {"city_id": 5502, "city_name": "Тольятти"},
+      {"city_id": 5503, "city_name": "Сызрань"},
+      {"city_id": 5504, "city_name": "Новокуйбышевск"},
+      {"city_id": 5505, "city_name": "Жигулевск"}
+    ]
+  },
+  {
+    "region_id": 56,
+    "region_name": "Саратовская область",
+    "cities": [
+      {"city_id": 5601, "city_name": "Саратов"},
+      {"city_id": 5602, "city_name": "Балаково"},
+      {"city_id": 5603, "city_name": "Энгельс"},
+      {"city_id": 5604, "city_name": "Балашов"},
+      {"city_id": 5605, "city_name": "Вольск"}
+    ]
+  },
+  {
+    "region_id": 57,
+    "region_name": "Республика Саха (Якутия)",
+    "cities": [
+      {"city_id": 5701, "city_name": "Якутск"},
+      {"city_id": 5702, "city_name": "Нерюнгри"},
+      {"city_id": 5703, "city_name": "Ленск"},
+      {"city_id": 5704, "city_name": "Мирный"},
+      {"city_id": 5705, "city_name": "Алдан"},
+      {"city_id": 5706, "city_name": "Вилюйск"}
+    ]
+  },
+  {
+    "region_id": 58,
+    "region_name": "Сахалинская область",
+    "cities": [
+      {"city_id": 5801, "city_name": "Южно-Сахалинск"},
+      {"city_id": 5802, "city_name": "Корсаков"},
+      {"city_id": 5803, "city_name": "Холмск"},
+      {"city_id": 5804, "city_name": "Оха"},
+      {"city_id": 5805, "city_name": "Невельск"}
+    ]
+  },
+  {
+    "region_id": 59,
+    "region_name": "Свердловская область",
+    "cities": [
+      {"city_id": 5901, "city_name": "Екатеринбург"},
+      {"city_id": 5902, "city_name": "Нижний Тагил"},
+      {"city_id": 5903, "city_name": "Каменск-Уральский"},
+      {"city_id": 5904, "city_name": "Первоуральск"},
+      {"city_id": 5905, "city_name": "Серов"},
+      {"city_id": 5906, "city_name": "Асбест"},
+      {"city_id": 5907, "city_name": "Ревда"},
+      {"city_id": 5908, "city_name": "Полевской"}
+    ]
+  },
+  {
+    "region_id": 60,
+    "region_name": "Республика Северная Осетия — Алания",
+    "cities": [
+      {"city_id": 6001, "city_name": "Владикавказ"},
+      {"city_id": 6002, "city_name": "Алагир"},
+      {"city_id": 6003, "city_name": "Ардон"},
+      {"city_id": 6004, "city_name": "Беслан"}
+    ]
+  },
+  {
+    "region_id": 61,
+    "region_name": "Смоленская область",
+    "cities": [
+      {"city_id": 6101, "city_name": "Смоленск"},
+      {"city_id": 6102, "city_name": "Рославль"},
+      {"city_id": 6103, "city_name": "Ярцево"},
+      {"city_id": 6104, "city_name": "Вязьма"},
+      {"city_id": 6105, "city_name": "Сафоново"}
+    ]
+  },
+  {
+    "region_id": 62,
+    "region_name": "Ставропольский край",
+    "cities": [
+      {"city_id": 6201, "city_name": "Ставрополь"},
+      {"city_id": 6202, "city_name": "Пятигорск"},
+      {"city_id": 6203, "city_name": "Кисловодск"},
+      {"city_id": 6204, "city_name": "Ессентуки"},
+      {"city_id": 6205, "city_name": "Невинномысск"},
+      {"city_id": 6206, "city_name": "Минеральные Воды"},
+      {"city_id": 6207, "city_name": "Георгиевск"},
+      {"city_id": 6208, "city_name": "Будённовск"}
+    ]
+  },
+  {
+    "region_id": 63,
+    "region_name": "Тамбовская область",
+    "cities": [
+      {"city_id": 6301, "city_name": "Тамбов"},
+      {"city_id": 6302, "city_name": "Мичуринск"},
+      {"city_id": 6303, "city_name": "Моршанск"},
+      {"city_id": 6304, "city_name": "Котовск"},
+      {"city_id": 6305, "city_name": "Рассказово"}
+    ]
+  },
+  {
+    "region_id": 64,
+    "region_name": "Республика Татарстан",
+    "cities": [
+      {"city_id": 6401, "city_name": "Казань"},
+      {"city_id": 6402, "city_name": "Набережные Челны"},
+      {"city_id": 6403, "city_name": "Нижнекамск"},
+      {"city_id": 6404, "city_name": "Альметьевск"},
+      {"city_id": 6405, "city_name": "Зеленодольск"},
+      {"city_id": 6406, "city_name": "Елабуга"}
+    ]
+  },
+  {
+    "region_id": 65,
+    "region_name": "Тверская область",
+    "cities": [
+      {"city_id": 6501, "city_name": "Тверь"},
+      {"city_id": 6502, "city_name": "Ржев"},
+      {"city_id": 6503, "city_name": "Вышний Волочек"},
+      {"city_id": 6504, "city_name": "Торжок"},
+      {"city_id": 6505, "city_name": "Кимры"}
+    ]
+  },
+  {
+    "region_id": 66,
+    "region_name": "Томская область",
+    "cities": [
+      {"city_id": 6601, "city_name": "Томск"},
+      {"city_id": 6602, "city_name": "Северск"},
+      {"city_id": 6603, "city_name": "Асино"},
+      {"city_id": 6604, "city_name": "Колпашево"}
+    ]
+  },
+  {
+    "region_id": 67,
+    "region_name": "Тульская область",
+    "cities": [
+      {"city_id": 6701, "city_name": "Тула"},
+      {"city_id": 6702, "city_name": "Новомосковск"},
+      {"city_id": 6703, "city_name": "Щёкино"},
+      {"city_id": 6704, "city_name": "Узловая"},
+      {"city_id": 6705, "city_name": "Донской"}
+    ]
+  },
+  {
+    "region_id": 68,
+    "region_name": "Республика Тыва",
+    "cities": [
+      {"city_id": 6801, "city_name": "Кызыл"},
+      {"city_id": 6802, "city_name": "Ак-Довурак"},
+      {"city_id": 6803, "city_name": "Чадан"},
+      {"city_id": 6804, "city_name": "Туран"}
+    ]
+  },
+  {
+    "region_id": 69,
+    "region_name": "Тюменская область",
+    "cities": [
+      {"city_id": 6901, "city_name": "Тюмень"},
+      {"city_id": 6902, "city_name": "Тобольск"},
+      {"city_id": 6903, "city_name": "Ишим"},
+      {"city_id": 6904, "city_name": "Ялуторовск"},
+      {"city_id": 6905, "city_name": "Заводоуковск"}
+    ]
+  },
+  {
+    "region_id": 70,
+    "region_name": "Удмуртская Республика",
+    "cities": [
+      {"city_id": 7001, "city_name": "Ижевск"},
+      {"city_id": 7002, "city_name": "Сарапул"},
+      {"city_id": 7003, "city_name": "Глазов"},
+      {"city_id": 7004, "city_name": "Воткинск"},
+      {"city_id": 7005, "city_name": "Можга"}
+    ]
+  },
+  {
+    "region_id": 71,
+    "region_name": "Ульяновская область",
+    "cities": [
+      {"city_id": 7101, "city_name": "Ульяновск"},
+      {"city_id": 7102, "city_name": "Димитровград"},
+      {"city_id": 7103, "city_name": "Новоульяновск"},
+      {"city_id": 7104, "city_name": "Сенгилей"}
+    ]
+  },
+  {
+    "region_id": 72,
+    "region_name": "Хабаровский край",
+    "cities": [
+      {"city_id": 7201, "city_name": "Хабаровск"},
+      {"city_id": 7202, "city_name": "Комсомольск-на-Амуре"},
+      {"city_id": 7203, "city_name": "Амурск"},
+      {"city_id": 7204, "city_name": "Николаевск-на-Амуре"},
+      {"city_id": 7205, "city_name": "Советская Гавань"}
+    ]
+  },
+  {
+    "region_id": 73,
+    "region_name": "Республика Хакасия",
+    "cities": [
+      {"city_id": 7301, "city_name": "Абакан"},
+      {"city_id": 7302, "city_name": "Саяногорск"},
+      {"city_id": 7303, "city_name": "Черногорск"},
+      {"city_id": 7304, "city_name": "Абаза"}
+    ]
+  },
+  {
+    "region_id": 74,
+    "region_name": "Ханты-Мансийский автономный округ — Югра",
+    "cities": [
+      {"city_id": 7401, "city_name": "Ханты-Мансийск"},
+      {"city_id": 7402, "city_name": "Сургут"},
+      {"city_id": 7403, "city_name": "Нижневартовск"},
+      {"city_id": 7404, "city_name": "Нефтеюганск"},
+      {"city_id": 7405, "city_name": "Мегион"},
+      {"city_id": 7406, "city_name": "Лангепас"},
+      {"city_id": 7407, "city_name": "Покачи"}
+    ]
+  },
+  {
+    "region_id": 75,
+    "region_name": "Челябинская область",
+    "cities": [
+      {"city_id": 7501, "city_name": "Челябинск"},
+      {"city_id": 7502, "city_name": "Магнитогорск"},
+      {"city_id": 7503, "city_name": "Златоуст"},
+      {"city_id": 7504, "city_name": "Миасс"},
+      {"city_id": 7505, "city_name": "Копейск"},
+      {"city_id": 7506, "city_name": "Озёрск"},
+      {"city_id": 7507, "city_name": "Троицк"},
+      {"city_id": 7508, "city_name": "Коркино"}
+    ]
+  },
+  {
+    "region_id": 76,
+    "region_name": "Чеченская Республика",
+    "cities": [
+      {"city_id": 7601, "city_name": "Грозный"},
+      {"city_id": 7602, "city_name": "Урус-Мартан"},
+      {"city_id": 7603, "city_name": "Аргун"},
+      {"city_id": 7604, "city_name": "Шали"},
+      {"city_id": 7605, "city_name": "Гудермес"}
+    ]
+  },
+  {
+    "region_id": 77,
+    "region_name": "Чувашская Республика",
+    "cities": [
+      {"city_id": 7701, "city_name": "Чебоксары"},
+      {"city_id": 7702, "city_name": "Новочебоксарск"},
+      {"city_id": 7703, "city_name": "Канаш"},
+      {"city_id": 7704, "city_name": "Алатырь"},
+      {"city_id": 7705, "city_name": "Шумерля"}
+    ]
+  },
+  {
+    "region_id": 78,
+    "region_name": "Чукотский автономный округ",
+    "cities": [
+      {"city_id": 7801, "city_name": "Анадырь"},
+      {"city_id": 7802, "city_name": "Билибино"}
+    ]
+  },
+  {
+    "region_id": 79,
+    "region_name": "Ямало-Ненецкий автономный округ",
+    "cities": [
+      {"city_id": 7901, "city_name": "Салехард"},
+      {"city_id": 7902, "city_name": "Новый Уренгой"},
+      {"city_id": 7903, "city_name": "Ноябрьск"},
+      {"city_id": 7904, "city_name": "Надым"},
+      {"city_id": 7905, "city_name": "Муравленко"},
+      {"city_id": 7906, "city_name": "Губкинский"}
+    ]
+  },
+  {
+    "region_id": 80,
+    "region_name": "Ярославская область",
+    "cities": [
+      {"city_id": 8001, "city_name": "Ярославль"},
+      {"city_id": 8002, "city_name": "Рыбинск"},
+      {"city_id": 8003, "city_name": "Переславль-Залесский"},
+      {"city_id": 8004, "city_name": "Углич"},
+      {"city_id": 8005, "city_name": "Тутаев"},
+      {"city_id": 8006, "city_name": "Ростов"},
+      {"city_id": 8007, "city_name": "Гаврилов-Ям"}
+    ]
+  },
+  {
+    "region_id": 81,
+    "region_name": "Республика Крым",
+    "cities": [
+      {"city_id": 8101, "city_name": "Симферополь"},
+      {"city_id": 8102, "city_name": "Севастополь"},
+      {"city_id": 8103, "city_name": "Керчь"},
+      {"city_id": 8104, "city_name": "Евпатория"},
+      {"city_id": 8105, "city_name": "Феодосия"},
+      {"city_id": 8106, "city_name": "Ялта"},
+      {"city_id": 8107, "city_name": "Джанкой"},
+      {"city_id": 8108, "city_name": "Бахчисарай"},
+      {"city_id": 8109, "city_name": "Алушта"},
+      {"city_id": 8110, "city_name": "Судак"}
+    ]
+  }
+]
