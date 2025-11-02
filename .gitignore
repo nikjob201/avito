@@ -1,5 +1,5 @@
 .env
-
+bot_demo.py
 data/avitomoment.json
 data/seen_ads.json
 
